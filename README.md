@@ -43,4 +43,8 @@ SOFTWARE.
 
 ## Screenshot
 
+![Password-Generator-Screeshot](../../../../../../C:/Users/juan_/bootcamp/CHALLENGES/Passwork-Generator/assets/images/Password-Gen.jpg)
+
 ## Weblink
+
+https://juang1908.github.io/Passwork-Generator/

@@ -68,7 +68,7 @@ if (userForUppercase === true) {
 if (optionsCart.length === 0) {
     optionsCart.push(lowercaseList)
 }
-
+// this will generate a random password
 var generatedPassword = ""
 
 for (var i = 0; i < passwordLength; i++){
@@ -79,10 +79,6 @@ for (var i = 0; i < passwordLength; i++){
 
 return generatedPassword
 }
-
-
-
-
 
 // Write password to the #password input
 function writePassword() {

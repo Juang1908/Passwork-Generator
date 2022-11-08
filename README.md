@@ -43,7 +43,7 @@ SOFTWARE.
 
 ## Screenshot
 
-![Password-Generator-Screeshot](../../../../../../C:/Users/juan_/bootcamp/CHALLENGES/Passwork-Generator/assets/images/Password-Gen.jpg)
+![](assets/images/Password-Gen.jpg)
 
 ## Weblink
 

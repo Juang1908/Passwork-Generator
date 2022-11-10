@@ -43,7 +43,7 @@ SOFTWARE.
 
 ## Screenshot
 
-![Alt text](../../../../../../C:/Users/juan_/bootcamp/CHALLENGES/Passwork-Generator/assets/images/PassGen.jpg)
+![Alt text](./assets/images/code-gen.jpg)
 
 ## Weblink
 

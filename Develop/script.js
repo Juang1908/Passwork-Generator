@@ -1,7 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-//return radom int ranging from mix to max and if max not defined, we want range from 0 to min
+//return radom int range from mix to max and if max not defined, we want range from 0 to min
 function randomInt(min, max) {
     if (!max) {
         max = min
@@ -32,13 +32,13 @@ if (passwordLength < 8 || passwordLength > 128) {
     window.alert("Pasword length must be between 8 and 128 characters")
     return
 }
-// ASK user for input on any of these;
+// ASK user for input on any of these:
 var userForNumbers = window.confirm("Would you like to include NUMBERS in your password?")
 var userForCharacters = window.confirm("Would you like to include SPECIAL CHARACTERS in your password?")
 var userForLowercase = window.confirm("Would you like to include LOWERCASE lettersin your password?")
 var userForUppercase = window.confirm("Would you like to include UPPERCASE letters in your password?")
 
-// input list
+// array input list
 var numList = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 var symbolList = [ " ", "!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", ">", "?", "@", "[", "\", "^", " ]
 var lowercaseList = [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
@@ -49,7 +49,7 @@ var optionsCart = []
 for ( var i = 0; i < lowercaseList.length; i++ ) {
     uppercaseList[i] = lowercaseList[i].toUpperCase()
 }
-
+// if = true or false
 if (userForNumbers === true) {
     optionsCart.push(numList)
 }
